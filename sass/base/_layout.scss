@@ -1,4 +1,4 @@
-$max-width: 1200px !default;
+$max-width: 700px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -17,6 +17,7 @@ $indented-lists: false !default;
 $header-font-size: 1em !default;
 $header-padding-top: 1.5em !default;
 $header-padding-bottom: 1.5em !default;
+$header-margin-left: 0em !default;
 
 .group { @include pie-clearfix; }
 
@@ -27,7 +28,6 @@ $header-padding-bottom: 1.5em !default;
   margin: 0;
   padding: 0 $pad-medium 1px;
   background-color: lighten($sidebar-bg, 2);
-  border-top: 1px solid lighten($sidebar-border, 4);
   section {
     &.odd, &.even { float: left; width: 48%; }
     &.odd { margin-left: 0; }
@@ -86,6 +86,7 @@ body {
     font-size: $header-font-size;
     padding-top: $header-padding-top;
     padding-bottom: $header-padding-bottom;
+    margin-left: $header-margin-left;
   }
 }
 
