@@ -18,7 +18,7 @@
     a {
       @include hover-link;
       color: inherit;
-      &:hover { color: $link-color-hover; }
+      &:hover { background: $link-color-hover; }
       font-weight: normal;
       display: inline-block;
     }
@@ -36,8 +36,6 @@
     .month { text-transform: uppercase; }
   }
   p { margin-bottom: 1em; }
-  &, .entry-content { a { @include link-colors(inherit, $link-color-hover); }}
-  a:hover { color: $link-color-hover; }
   @media only screen and (min-width: 550px) {
     article { margin-left: 5em; }
     h2 {
@@ -46,7 +44,7 @@
       display: inline-block;
       position: relative; top: -1px;
       float: left;
-      &:first-child { padding-top: .75em; }
+      &:first-child { padding-top: 1em; }
     }
     time {
       position: absolute;

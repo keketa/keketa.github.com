@@ -1,9 +1,11 @@
 body > nav {
   position: relative;
+  margin-top: -5px;
   background-color: $nav-bg;
+  border-top: solid .1em #bfbfbf;
   @include background($nav-bg-front, $nav-bg-back);
   padding-top: .35em;
-  padding-bottom: .35em;
+  padding-bottom: -.5em;
   form {
     @include background-clip(padding-box);
     margin: 0; padding: 0;

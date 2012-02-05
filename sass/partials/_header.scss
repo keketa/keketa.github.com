@@ -1,11 +1,17 @@
 body > header {
   background: $header-bg;
+  margin-top: 30px;
+  border-bottom: solid .1em #aaaaaa;
   h1 {
     display: inline-block;
+    font-size: 2em;
     margin: 0;
-    a, a:visited, a:hover {
+    a, a:visited {
       color: $title_color;
       text-decoration: none;
+    }
+    a:hover {
+      background: $link-color-hover;
     }
   }
   h2 {
@@ -15,4 +21,52 @@ body > header {
     color: $subtitle-color;
     font-weight: normal;
   }
+  hgroup {
+    float: left;
+  }
+  nav {
+    position: relative;
+    margin-top: -5px;
+    margin-right: -10px;
+    background-color: $nav-bg;
+    @include background($nav-bg-front, $nav-bg-back);
+    padding-top: .35em;
+    ul { display: none; }
+    @media only screen and (min-width: 550px) {
+      font-size: .9em;
+      ul {
+        @include horizontal-list(0);
+        float: right;
+        display: block;
+        padding-top: .15em;
+      }
+      ul.subscription {
+        margin-left: .8em;
+        float: right;
+        li:last-child a { padding-right: 0; }
+      }
+      ul li {
+        margin: 0;
+      }
+      a {
+        @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
+        @extend .sans;
+        text-shadow: lighten($nav-bg, 12) 0 1px;
+        float: left;
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: .1em 0;
+        line-height: 1.5em;
+      }
+      a:hover {
+        background: $link-color-hover;
+      }
+      li + li {
+        margin-left: 1em;
+        a {
+          padding-left: .1em;
+        }
+      } 
+ }
+    }
 }

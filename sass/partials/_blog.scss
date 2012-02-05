@@ -3,14 +3,14 @@ article {
   a { @extend .force-wrap; }
   header {
     position: relative;
-    padding-top: 2em;
+    padding-top: .3em;
     padding-bottom: 1em;
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
     h1 {
       margin: 0;
       a { text-decoration: none;
-        &:hover { text-decoration: underline; } }
+        &:hover { text-decoration: none; } }
     }
     p {
       font-size: .9em;
@@ -18,8 +18,9 @@ article {
       margin: 0;
       &.meta {
         @extend .sans;
+        color: #aaaaaa;
         text-transform: uppercase;
-        position: absolute; top: 0;
+        margin-top: 5px;
       }
     }
     @media only screen and (min-width: 768px) {
@@ -72,7 +73,7 @@ article {
     @extend .sans;
     p.meta {
       margin-bottom: .8em;
-      font-size: .85em;
+      font-size: .4em;
       clear: both;
       overflow: hidden;
     }
@@ -92,8 +93,9 @@ article + article {
   article { padding-top: 2em; }
   article header { background: none; padding-bottom: 0; }
   article h1 {
-    font-size: 2.2em;
-    a { color: inherit; &:hover { color: $link-color-hover; } }
+    font-size: 1.4em;
+    color: #f2f2f2;
+    a { color: inherit;}
   }
   a[rel=full-article] {
     background: darken($main-bg, 5);
@@ -133,7 +135,7 @@ article + article {
     color: $text-color-light;
     &.prev { position: absolute; left: 0; }
     &.next { position: absolute; right: 0; }
-    &:hover { color: $link-color-hover; }
+    &:hover { background: $link-color-hover;}
     &[href*=archive] {
       &:before, &:after { content: '\2014'; padding: 0 .3em; }
     }
