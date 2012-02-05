@@ -1,6 +1,5 @@
 article {
   padding-top: 1em;
-  a { @extend .force-wrap; }
   header {
     position: relative;
     padding-top: .3em;
@@ -9,7 +8,10 @@ article {
     background: $img-border bottom left repeat-x;
     h1 {
       margin: 0;
-      a { text-decoration: none;
+      .entry-title {
+        color: #f2f2f2;
+      };
+      a { text-decoration: none; color: #f2f2f2;
         &:hover { text-decoration: none; } }
     }
     p {
@@ -34,6 +36,13 @@ article {
     background: $img-border top left repeat-x;
   }
   .entry-content & h2:first-child, header + h2 { padding-top: 0; }
+  .entry-content a {
+    color: #f8f8f8;
+    background: #4a525a;
+    text-decoration: underline;
+  };
+    &:hover {
+    };
   h2:first-child, header + h2 { background: none; }
   .feature {
     padding-top: .5em;
@@ -98,18 +107,14 @@ article + article {
     a { color: inherit;}
   }
   a[rel=full-article] {
-    background: darken($main-bg, 5);
+    color: #aaaaaa;
     display: inline-block;
     padding: .4em .8em;
     margin-right: .5em;
-    text-decoration: none;
-    color: mix($text-color, $text-color-light);
-    @extend .serif;
-    @include transition(background-color .5s);
+    text-decoration: underline;
     &:hover {
       background: $link-color-hover;
       text-shadow: none;
-      color: $main-bg;
     }
   }
   footer {
@@ -132,7 +137,7 @@ article + article {
   padding: {top: 1.5em; bottom: 1.5em;}
   a {
     text-decoration: none;
-    color: $text-color-light;
+    color: #aaaaaa;
     &.prev { position: absolute; left: 0; }
     &.next { position: absolute; right: 0; }
     &:hover { background: $link-color-hover;}
