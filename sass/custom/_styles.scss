@@ -6,3 +6,223 @@ $min-width: 700px !default;
 body a:hover {
   text-decoration: none;
 }
+ body > header {
+  background: $header-bg;
+  margin-top: 30px;
+  border-bottom: solid .1em #aaaaaa;
+  h1 {
+    display: inline-block;
+    font-size: 2em;
+    margin: 0;
+    a, a:visited {
+      color: $title_color;
+      text-decoration: none;
+    }
+    a:hover {
+      background: $link-color-hover;
+    }
+  }
+  h2 {
+    margin: .2em 0 0;
+    @extend .sans;
+    font-size: 1em;
+    color: $subtitle-color;
+    font-weight: normal;
+  }
+  hgroup {
+    float: left;
+  }
+  nav {
+    position: relative;
+    margin-top: -5px;
+    margin-right: -10px;
+    background-color: $nav-bg;
+    @include background($nav-bg-front, $nav-bg-back);
+    padding-top: .35em;
+    ul { display: none; }
+    @media only screen and (min-width: 550px) {
+      font-size: .9em;
+      ul {
+        @include horizontal-list(0);
+        float: right;
+        display: block;
+        padding-top: .15em;
+      }
+      ul.subscription {
+        margin-left: .8em;
+        float: right;
+        li:last-child a { padding-right: 0; }
+      }
+      ul li {
+        margin: 0;
+      }
+      a {
+        @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
+        @extend .sans;
+        text-shadow: lighten($nav-bg, 12) 0 1px;
+        float: left;
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: .1em 0;
+        line-height: 1.5em;
+      }
+      a:hover {
+        background: $link-color-hover;
+      }
+      li + li {
+        margin-left: 1em;
+        a {
+          padding-left: .1em;
+        }
+      } 
+ }
+    }
+} 
+article {
+  padding-top: 1em;
+  header {
+    position: relative;
+    padding-top: .3em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    background: $img-border bottom left repeat-x;
+    h1 {
+      margin: 0;
+      .entry-title {
+        color: #f2f2f2;
+      };
+      a { text-decoration: none; color: #f2f2f2;
+        &:hover { text-decoration: none; } }
+    }
+    p {
+      font-size: .9em;
+      color: $text-color-light;
+      margin: 0;
+      &.meta {
+        @extend .sans;
+        color: #aaaaaa;
+        text-transform: uppercase;
+        margin-top: 5px;
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      margin-bottom: 1.5em;
+      padding-bottom: 1em;
+      background: $img-border bottom left repeat-x;
+    }
+  }
+  h2 {
+    padding-top: 0.8em;
+    background: $img-border top left repeat-x;
+  }
+  .entry-content & h2:first-child, header + h2 { padding-top: 0; }
+  .entry-content a {
+    color: #f8f8f8;
+    background: #4a525a;
+    text-decoration: underline;
+  };
+    &:hover {
+    };
+  h2:first-child, header + h2 { background: none; }
+  .feature {
+    padding-top: .5em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    background: $img-border bottom left repeat-x;
+    font-size: 2.0em; font-style: italic;
+    line-height: 1.3em;
+  }
+  img, video, .flash-video {
+    @extend .flex-content;
+    @extend .basic-alignment;
+    @include shadow-box;
+  }
+  video, .flash-video { margin: 0 auto 1.5em; }
+  video { display: block; width: 100%; }
+  .flash-video {
+    > div {
+      position: relative;
+      display: block;
+      padding-bottom: 56.25%;
+      padding-top: 1px;
+      height: 0;
+      overflow: hidden;
+      iframe, object, embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  > footer {
+    padding-bottom: 2.5em;
+    margin-top: 2em;
+    @extend .sans;
+    p.meta {
+      margin-bottom: .8em;
+      font-size: .4em;
+      clear: both;
+      overflow: hidden;
+    }
+    .byline + time:before, time +time:before, .comments:before, .byline ~ .categories:before {
+      @extend .separator;
+    }
+  }
+
+}
+article + article {
+  .blog-index & {
+    background: $img-border top left repeat-x;
+  }
+}
+#content .blog-index {
+  padding: { top: 0; bottom: 0; }
+  article { padding-top: 2em; }
+  article header { background: none; padding-bottom: 0; }
+  article h1 {
+    font-size: 1.4em;
+    color: #f2f2f2;
+    a { color: inherit;}
+  }
+  a[rel=full-article] {
+    color: #aaaaaa;
+    display: inline-block;
+    padding: .4em .8em;
+    margin-right: .5em;
+    text-decoration: underline;
+    &:hover {
+      background: $link-color-hover;
+      text-shadow: none;
+    }
+  }
+  footer {
+    @extend .sans;
+    margin-top: 1em;
+  }
+}
+
+.separator {
+  content: "\2022 ";
+  padding: 0 .4em 0 .2em;
+  display: inline-block;
+}
+
+#content div.pagination {
+  text-align: center;
+  font-size: .95em;
+  position: relative;
+  background: $img-border top left repeat-x;
+  padding: {top: 1.5em; bottom: 1.5em;}
+  a {
+    text-decoration: none;
+    color: #aaaaaa;
+    &.prev { position: absolute; left: 0; }
+    &.next { position: absolute; right: 0; }
+    &:hover { background: $link-color-hover;}
+    &[href*=archive] {
+      &:before, &:after { content: '\2014'; padding: 0 .3em; }
+    }
+  }
+}
