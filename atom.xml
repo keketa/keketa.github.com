@@ -4,7 +4,7 @@
   <title><![CDATA[keketter]]></title>
   <link href="http://keketa.github.com/atom.xml" rel="self"/>
   <link href="http://keketa.github.com/"/>
-  <updated>2012-02-06T15:21:54+09:00</updated>
+  <updated>2012-02-06T21:15:20+09:00</updated>
   <id>http://keketa.github.com/</id>
   <author>
     <name><![CDATA[keke_ta]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Zen]]></title>
+    <link href="http://keketa.github.com/blog/2012/02/06/zen/"/>
+    <updated>2012-02-06T19:55:00+09:00</updated>
+    <id>http://keketa.github.com/blog/2012/02/06/zen</id>
+    <content type="html"><![CDATA[<p>去年の夏ごろに書かれたPaul Buchheitのエッセイ、<a href="http://paulbuchheit.blogspot.com/2011/08/i-am-nothing.html">I am nothing</a>
+が禅の考え方にとても近い。</p>
+
+<blockquote><p>By returning to zero expectations, by accepting that I am nothing, it is easier to see the truth. Fear, jealousy, insecurity, unfairness, embarrassment &#8211; these feelings cloud our ability to see what is.</p></blockquote>
+
+<p>Ben Horowitzもこれに近いことを起業家の教訓として
+<a href="http://bhorowitz.com/2011/10/08/nobody-cares/">Nobody Cares</a>という題で書いている。</p>
+
+<blockquote><p>That might be the best CEO advice ever. Because, you see, nobody cares. When things go wrong in your company, nobody cares. The press doesn’t care, your investors don’t care, your board doesn’t care, your employees don’t care, even your mama doesn’t care. Nobody cares.</p></blockquote>
+
+<p>他人の感情ばかり気にして、本当の自分を押し殺してしまいがちな日本人だからこそ、
+禅に近い考え方が大事になってくるのではないか。  <br/>
+個人的に好きな2つのエッセイ。
+ネガティブなとき、読み返したい。</p>
+
+<p>禅といえば<a href="http://www.youtube.com/watch?v=D1R-jKKp3NA">このひと</a>も。</p>
+
+<blockquote><p>Almost everything&#8211;all external expectations, all pride, all fear of embarrassment or failure&#8211;these things just fall away in the face of death, leaving only what is truly important. Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mobile, Mobile, Mobile]]></title>
+    <link href="http://keketa.github.com/blog/2012/02/06/mobile-vs-web/"/>
+    <updated>2012-02-06T16:07:00+09:00</updated>
+    <id>http://keketa.github.com/blog/2012/02/06/mobile-vs-web</id>
+    <content type="html"><![CDATA[<p>大事なことなので(ry    <br/>
+Web大国アメリカでもMobileがWebを飲み込み始めている。</p>
+
+<p><img src="http://blog.flurry.com/Portals/41620/images/Flurry_Browsing_vs_AppUsage_Dec2011-resized-600.png"></p>
+
+<p>(comScoreやAlexaのデータを元に、
+2010年夏〜2011年末までのモバイルとWebの一日あたりの消費時間の推移を比較したもの)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Intern at Mixpanel]]></title>
