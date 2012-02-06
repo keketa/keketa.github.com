@@ -4,7 +4,7 @@
   <title><![CDATA[keketter]]></title>
   <link href="http://keketa.github.com/atom.xml" rel="self"/>
   <link href="http://keketa.github.com/"/>
-  <updated>2012-02-05T22:22:35+09:00</updated>
+  <updated>2012-02-06T11:52:59+09:00</updated>
   <id>http://keketa.github.com/</id>
   <author>
     <name><![CDATA[keke_ta]]></name>
@@ -18,14 +18,13 @@
     <link href="http://keketa.github.com/blog/2012/02/05/mixpanel-intern/"/>
     <updated>2012-02-05T21:06:00+09:00</updated>
     <id>http://keketa.github.com/blog/2012/02/05/mixpanel-intern</id>
-    <content type="html"><![CDATA[<p>Mixpanelのインターン生がQA形式で<a href="http://code.mixpanel.com/2011/11/15/internship-stories/">Mixpanelでのインターンの素晴らしさ</a>
-を説いているのが面白い。</p>
+    <content type="html"><![CDATA[<p>Mixpanelのインターン生がQA形式でMixpanelでのインターン経験を語っている。</p>
 
 <p>FounderのSuhail Doshiは、学生時代にMax LevchinのいたSlideでインターンをしたのがきっかけで、
-Startupの世界にのめり込んでいったという。
-Suhail Doshiは、SlideのインターンなくしてMixpanelはなかった、と言っている。
-そのMax LevchinはMixpanelに出資している。こういうつながりいいよねぇ。
-<a href="http://mixpanel.com/about/">Mixpanelの投資家陣</a>はさりげなく豪華だったと思いだした。</p>
+Startupの世界にのめり込んでいったというから、人一倍思い入れが強いらしい。
+Suhail Doshiは、SlideのインターンなくしてMixpanelはなかった、とも言っている。
+そのMax LevchinはMixpanelに出資している。
+<a href="http://mixpanel.com/about/">Mixpanelの投資家陣</a>はさりげなく豪華だったと思い出す。</p>
 ]]></content>
   </entry>
   
@@ -34,9 +33,9 @@ Suhail Doshiは、SlideのインターンなくしてMixpanelはなかった、�
     <link href="http://keketa.github.com/blog/2012/02/05/successful-startups-in-show-hn/"/>
     <updated>2012-02-05T20:59:00+09:00</updated>
     <id>http://keketa.github.com/blog/2012/02/05/successful-startups-in-show-hn</id>
-    <content type="html"><![CDATA[<p><a href="http://news.ycombinator.com/item?id=3526993">Show HNに投稿されてきたなかで成功したStartupをあげようぜ</a>、というスレ。(in Hacker News)</p>
+    <content type="html"><![CDATA[<p>Show HNに投稿されてきたなかで成功したStartupをあげようぜ、というスレ。(Hacker News)</p>
 
-<p>Drew Houstonの<a href="http://news.ycombinator.com/item?id=8863">投稿(Dropbox)</a>やCharlie Cheeverの<a href="http://news.ycombinator.com/item?id=1197146">投稿(Quora)</a>が上がっている。それぞれ5年前と3年前の投稿である。なかなか味のあるスレだ。</p>
+<p>Drew Houstonの<a href="http://news.ycombinator.com/item?id=8863">投稿(Dropbox)</a>やCharlie Cheeverの<a href="http://news.ycombinator.com/item?id=1197146">投稿(Quora)</a>が上がっている。それぞれ5年前と3年前の投稿である。なかなか味のあるスレ。</p>
 
 <p>pgさんはDropboxをあげてる。</p>
 
