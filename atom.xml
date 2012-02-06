@@ -4,7 +4,7 @@
   <title><![CDATA[keketter]]></title>
   <link href="http://keketa.github.com/atom.xml" rel="self"/>
   <link href="http://keketa.github.com/"/>
-  <updated>2012-02-06T21:15:20+09:00</updated>
+  <updated>2012-02-06T21:18:35+09:00</updated>
   <id>http://keketa.github.com/</id>
   <author>
     <name><![CDATA[keke_ta]]></name>
@@ -40,12 +40,11 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Mobile, Mobile, Mobile]]></title>
+    <title type="html"><![CDATA[Mobile > Web]]></title>
     <link href="http://keketa.github.com/blog/2012/02/06/mobile-vs-web/"/>
     <updated>2012-02-06T16:07:00+09:00</updated>
     <id>http://keketa.github.com/blog/2012/02/06/mobile-vs-web</id>
-    <content type="html"><![CDATA[<p>大事なことなので(ry    <br/>
-Web大国アメリカでもMobileがWebを飲み込み始めている。</p>
+    <content type="html"><![CDATA[<p>Web大国アメリカでもMobileがWebを飲み込み始めている。</p>
 
 <p><img src="http://blog.flurry.com/Portals/41620/images/Flurry_Browsing_vs_AppUsage_Dec2011-resized-600.png"></p>
 
