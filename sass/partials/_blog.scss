@@ -4,38 +4,44 @@ article {
     position: relative;
     padding-top: .3em;
     padding-bottom: 1em;
-    margin-bottom: 1em;
-    background: $img-border bottom left repeat-x;
     h1 {
+      font-weight: normal;
+      font-size: 1.5em;
       margin: 0;
-      .entry-title {
-        color: #f2f2f2;
+      .entry-title{
       };
-      a { text-decoration: none; color: #f2f2f2;
+      a { text-decoration: none; 
         &:hover { text-decoration: none; } }
     }
+      a.link {
+        color: #e5e3ce
+      }
     p {
-      font-size: .9em;
       color: $text-color-light;
       margin: 0;
       &.meta {
         @extend .sans;
         color: #aaaaaa;
+        font-size: .8em;
         text-transform: uppercase;
-        margin-top: 5px;
+        margin-top: 2px;
+        margin-bottom: -7px;
       }
     }
     @media only screen and (min-width: 768px) {
       margin-bottom: 1.5em;
       padding-bottom: 1em;
-      background: $img-border bottom left repeat-x;
     }
   }
   h2 {
     padding-top: 0.8em;
-    background: $img-border top left repeat-x;
   }
+  .entry-content { margin-top: -20px; }
   .entry-content & h2:first-child, header + h2 { padding-top: 0; }
+  .entry-content p {
+    line-height: 1.5em;
+    font-size: 1em;
+  };
   .entry-content a {
     color: #f8f8f8;
     background: #4a525a;
@@ -48,7 +54,6 @@ article {
     padding-top: .5em;
     margin-bottom: 1em;
     padding-bottom: 1em;
-    background: $img-border bottom left repeat-x;
     font-size: 2.0em; font-style: italic;
     line-height: 1.3em;
   }
@@ -79,13 +84,18 @@ article {
   > footer {
     padding-bottom: 2.5em;
     margin-top: 2em;
+    color: #aaaaaa;
     @extend .sans;
     p.meta {
       margin-bottom: .8em;
-      font-size: .4em;
+      font-size: .7em;
       clear: both;
       overflow: hidden;
     }
+    p.meta a {
+      color: #bcbfbf;
+      font-size: 1.2em;
+      text-decoration: none;
     .byline + time:before, time +time:before, .comments:before, .byline ~ .categories:before {
       @extend .separator;
     }
@@ -94,18 +104,12 @@ article {
 }
 article + article {
   .blog-index & {
-    background: $img-border top left repeat-x;
   }
 }
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
   article { padding-top: 2em; }
   article header { background: none; padding-bottom: 0; }
-  article h1 {
-    font-size: 1.4em;
-    color: #f2f2f2;
-    a { color: inherit;}
-  }
   a[rel=full-article] {
     color: #aaaaaa;
     display: inline-block;
@@ -133,7 +137,6 @@ article + article {
   text-align: center;
   font-size: .95em;
   position: relative;
-  background: $img-border top left repeat-x;
   padding: {top: 1.5em; bottom: 1.5em;}
   a {
     text-decoration: none;
@@ -145,4 +148,5 @@ article + article {
       &:before, &:after { content: '\2014'; padding: 0 .3em; }
     }
   }
+}
 }

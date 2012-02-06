@@ -2,13 +2,13 @@
   <style type='text/css'><!-- h1.entry-title { color: #f2f2f2; } --></style>
   {% if index %}
     {% if post.ex-link %}
-        <h1 class="entry-title"><a href="{{ post.link }}" class="link">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+        <h1 class="entry-title"><a href="{{ post.ex-link }}" class="link">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
     {% else %}
         <h1 class="entry-title"><a href="{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
     {% endif %}
   {% else %}
     {% if page.ex-link %}
-      <h1 class="entry-title"><a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
+      <h1 class="entry-title"><a href="{{ page.ex-link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
     {% else %}
       <h1 class="entry-title"><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
     {% endif %}
