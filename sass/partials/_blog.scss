@@ -14,7 +14,9 @@ article {
         &:hover { text-decoration: none; } }
     }
       a.link {
-        color: #e5e3ce
+        color: #e5e3ce;
+        text-decoration: underline;
+        &:hover { text-decoration: underline; } 
       }
     p {
       color: $text-color-light;
