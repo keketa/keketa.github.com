@@ -4,7 +4,7 @@
   <title><![CDATA[keketter]]></title>
   <link href="http://keketa.github.com/atom.xml" rel="self"/>
   <link href="http://keketa.github.com/"/>
-  <updated>2012-02-07T10:35:23+09:00</updated>
+  <updated>2012-02-07T14:29:08+09:00</updated>
   <id>http://keketa.github.com/</id>
   <author>
     <name><![CDATA[keke_ta]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Progress Report]]></title>
+    <link href="http://keketa.github.com/blog/2012/02/07/weekly-mail/"/>
+    <updated>2012-02-07T13:39:00+09:00</updated>
+    <id>http://keketa.github.com/blog/2012/02/07/weekly-mail</id>
+    <content type="html"><![CDATA[<blockquote><p>Setting aside time on a daily or weekly basis to reflect on the day is a powerful productivity hack.</p></blockquote>
+
+<p>先週何をやったか。なんてことはない一週間の進捗報告だけど、
+ここをきっちりできるかどうかで組織の生産性は大きく違ってくる。  <br/>
+シリコンバレーの有名企業は、かっこいいプロジェクトネームまでつけてこの進捗報告を習慣化している。
+記事によると、Googleでは「Snippets」という週間進捗をメールするシステム、Facebookでは「Colbert」という同様のシステムがある。
+Squareでは名前はないけど、社員がCOOのKeith Raboisに週間進捗を直接メールしている。
+<small>(Raboisの仕事量<sup>^<sup>^;)</small></sup></sup></p>
+
+<p>さりげなく強調されているのは、進捗は<strong>「メール」</strong>で報告すること。</p>
+
+<blockquote><p>At Palantir, they do email snippets because they have a very strong culture against meetings.  In addition, email as an interface avoids the issues with, for instance, CRMs, where employees spend valuable time logging into a system and entering highly structured information or they don’t use it at all.</p></blockquote>
+
+<p>生産性の秘密は、当たり前のことを怠らないことにある。自戒をこめて＞＜</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Solve for X]]></title>
