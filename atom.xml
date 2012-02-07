@@ -4,7 +4,7 @@
   <title><![CDATA[keketter]]></title>
   <link href="http://keketa.github.com/atom.xml" rel="self"/>
   <link href="http://keketa.github.com/"/>
-  <updated>2012-02-06T21:40:07+09:00</updated>
+  <updated>2012-02-07T10:12:02+09:00</updated>
   <id>http://keketa.github.com/</id>
   <author>
     <name><![CDATA[keke_ta]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Video tag test]]></title>
+    <link href="http://keketa.github.com/blog/2012/02/07/video-tag-test/"/>
+    <updated>2012-02-07T10:11:00+09:00</updated>
+    <id>http://keketa.github.com/blog/2012/02/07/video-tag-test</id>
+    <content type="html"><![CDATA[<p>これはてすとです。</p>
+
+<p><video width='' height='' preload='none' controls poster=''><source src='http://www.youtube.com/watch?v=SAc0vQCC6UQ' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Zen]]></title>
