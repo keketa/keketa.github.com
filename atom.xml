@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[keketter]]></title>
-  <link href="http://keketa.github.com/atom.xml" rel="self"/>
-  <link href="http://keketa.github.com/"/>
-  <updated>2012-02-08T15:59:50+09:00</updated>
-  <id>http://keketa.github.com/</id>
+  <link href="http://keketter.com/atom.xml" rel="self"/>
+  <link href="http://keketter.com/"/>
+  <updated>2012-02-08T16:09:48+09:00</updated>
+  <id>http://keketter.com/</id>
   <author>
     <name><![CDATA[keke_ta]]></name>
     <email><![CDATA[keketter@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Quotes from Sam Altman]]></title>
-    <link href="http://keketa.github.com/blog/2012/02/08/quotes-from-sam-altman/"/>
+    <link href="http://keketter.com/blog/2012/02/08/quotes-from-sam-altman/"/>
     <updated>2012-02-08T12:30:00+09:00</updated>
-    <id>http://keketa.github.com/blog/2012/02/08/quotes-from-sam-altman</id>
+    <id>http://keketter.com/blog/2012/02/08/quotes-from-sam-altman</id>
     <content type="html"><![CDATA[<p>LooptのFounder、Sam Altmanの名言を引用メモ。(約5年前）</p>
 
 <blockquote><p>-Get ready for high highs and low lows, and practice keeping yourself in the middle or you&#8217;ll never get good work done. You&#8217;re going to be pretty sure your company is dying at least once a month, and it usually isn&#8217;t. This is very important and very difficult to learn.</p>
@@ -60,9 +60,9 @@ Steve Jobsがもっている現実を歪ませるほどのカリスマ的影響�
   
   <entry>
     <title type="html"><![CDATA[Square and Dwolla (Transactions Per Day)]]></title>
-    <link href="http://keketa.github.com/blog/2012/02/08/square-and-dwolla-transactions-per-day/"/>
+    <link href="http://keketter.com/blog/2012/02/08/square-and-dwolla-transactions-per-day/"/>
     <updated>2012-02-08T09:14:00+09:00</updated>
-    <id>http://keketa.github.com/blog/2012/02/08/square-and-dwolla-transactions-per-day</id>
+    <id>http://keketter.com/blog/2012/02/08/square-and-dwolla-transactions-per-day</id>
     <content type="html"><![CDATA[<p><strong>Square: $11M~</strong> (2011年末)      <br/>
 <strong>Dwolla: $1M~</strong>  (2012年2月)</p>
 
@@ -72,9 +72,9 @@ Steve Jobsがもっている現実を歪ませるほどのカリスマ的影響�
   
   <entry>
     <title type="html"><![CDATA[Progress Report]]></title>
-    <link href="http://keketa.github.com/blog/2012/02/07/progress-report/"/>
+    <link href="http://keketter.com/blog/2012/02/07/progress-report/"/>
     <updated>2012-02-07T13:39:00+09:00</updated>
-    <id>http://keketa.github.com/blog/2012/02/07/progress-report</id>
+    <id>http://keketter.com/blog/2012/02/07/progress-report</id>
     <content type="html"><![CDATA[<blockquote><p>Setting aside time on a daily or weekly basis to reflect on the day is a powerful productivity hack.</p></blockquote>
 
 <p>先週何をやったか。なんてことはない一週間の進捗報告だけど、
@@ -94,9 +94,9 @@ Squareでは名前はないけど、社員がCOOのKeith Raboisに週間進捗�
   
   <entry>
     <title type="html"><![CDATA[Solve for X]]></title>
-    <link href="http://keketa.github.com/blog/2012/02/07/solve-for-x/"/>
+    <link href="http://keketter.com/blog/2012/02/07/solve-for-x/"/>
     <updated>2012-02-07T10:11:00+09:00</updated>
-    <id>http://keketa.github.com/blog/2012/02/07/solve-for-x</id>
+    <id>http://keketter.com/blog/2012/02/07/solve-for-x</id>
     <content type="html"><![CDATA[<p>Googleの興味深いプロジェクトがリークされている。
 詳しくは今後発表されるだろうけど、
 世の中のあらゆる問題に対してクレイジーな解決策を議論する場らしい。
@@ -109,9 +109,9 @@ GeekっぽいTEDみたいな感じになるんだろうか。</p>
   
   <entry>
     <title type="html"><![CDATA[Zen]]></title>
-    <link href="http://keketa.github.com/blog/2012/02/06/zen/"/>
+    <link href="http://keketter.com/blog/2012/02/06/zen/"/>
     <updated>2012-02-06T19:55:00+09:00</updated>
-    <id>http://keketa.github.com/blog/2012/02/06/zen</id>
+    <id>http://keketter.com/blog/2012/02/06/zen</id>
     <content type="html"><![CDATA[<p>去年の夏ごろに書かれたPaul Buchheitのエッセイ、<a href="http://paulbuchheit.blogspot.com/2011/08/i-am-nothing.html">I am nothing</a>
 が禅の考え方にとても近い。</p>
 
@@ -133,9 +133,9 @@ GeekっぽいTEDみたいな感じになるんだろうか。</p>
   
   <entry>
     <title type="html"><![CDATA[Intern at Mixpanel]]></title>
-    <link href="http://keketa.github.com/blog/2012/02/05/mixpanel-intern/"/>
+    <link href="http://keketter.com/blog/2012/02/05/mixpanel-intern/"/>
     <updated>2012-02-05T21:06:00+09:00</updated>
-    <id>http://keketa.github.com/blog/2012/02/05/mixpanel-intern</id>
+    <id>http://keketter.com/blog/2012/02/05/mixpanel-intern</id>
     <content type="html"><![CDATA[<p>Mixpanelのインターン生がQA形式でMixpanelでのインターン経験を語っている。</p>
 
 <p>FounderのSuhail Doshiは、学生時代にMax LevchinのいたSlideでインターンをしたのがきっかけで、
@@ -148,9 +148,9 @@ Suhail Doshiは、SlideのインターンなくしてMixpanelはなかった、�
   
   <entry>
     <title type="html"><![CDATA[Successful Startups in Show HN.]]></title>
-    <link href="http://keketa.github.com/blog/2012/02/05/successful-startups-in-show-hn/"/>
+    <link href="http://keketter.com/blog/2012/02/05/successful-startups-in-show-hn/"/>
     <updated>2012-02-05T20:59:00+09:00</updated>
-    <id>http://keketa.github.com/blog/2012/02/05/successful-startups-in-show-hn</id>
+    <id>http://keketter.com/blog/2012/02/05/successful-startups-in-show-hn</id>
     <content type="html"><![CDATA[<p>Show HNに投稿されてきたなかで成功したStartupをあげようぜ、というスレ。(Hacker News)</p>
 
 <p>Drew Houstonの<a href="http://news.ycombinator.com/item?id=8863">投稿(Dropbox)</a>やCharlie Cheeverの<a href="http://news.ycombinator.com/item?id=1197146">投稿(Quora)</a>が上がっている。それぞれ5年前と3年前の投稿である。なかなか味のあるスレ。</p>

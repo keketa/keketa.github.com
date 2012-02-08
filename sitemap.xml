@@ -1,45 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://keketa.github.com/blog/2012/02/05/successful-startups-in-show-hn/</loc>
-        <lastmod>2012-02-06T11:52:52+09:00</lastmod>
+        <loc>http://keketter.com/blog/2012/02/05/successful-startups-in-show-hn/</loc>
+        <lastmod>2012-02-08T16:03:18+09:00</lastmod>
     </url>
     <url>
-        <loc>http://keketa.github.com/blog/2012/02/05/mixpanel-intern/</loc>
-        <lastmod>2012-02-06T11:50:58+09:00</lastmod>
+        <loc>http://keketter.com/blog/2012/02/05/mixpanel-intern/</loc>
+        <lastmod>2012-02-08T16:03:18+09:00</lastmod>
     </url>
     <url>
-        <loc>http://keketa.github.com/blog/2012/02/06/zen/</loc>
-        <lastmod>2012-02-06T21:40:01+09:00</lastmod>
+        <loc>http://keketter.com/blog/2012/02/06/zen/</loc>
+        <lastmod>2012-02-08T16:03:18+09:00</lastmod>
     </url>
     <url>
-        <loc>http://keketa.github.com/blog/2012/02/07/solve-for-x/</loc>
-        <lastmod>2012-02-07T10:33:00+09:00</lastmod>
+        <loc>http://keketter.com/blog/2012/02/07/solve-for-x/</loc>
+        <lastmod>2012-02-08T16:03:18+09:00</lastmod>
     </url>
     <url>
-        <loc>http://keketa.github.com/blog/2012/02/07/progress-report/</loc>
-        <lastmod>2012-02-08T11:29:39+09:00</lastmod>
+        <loc>http://keketter.com/blog/2012/02/07/progress-report/</loc>
+        <lastmod>2012-02-08T16:03:18+09:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://keketa.github.com/blog/2012/02/08/square-and-dwolla-transactions-per-day/
-        </loc>
-        <lastmod>2012-02-08T14:56:25+09:00</lastmod>
+        <loc>http://keketter.com/blog/2012/02/08/square-and-dwolla-transactions-per-day/</loc>
+        <lastmod>2012-02-08T16:03:18+09:00</lastmod>
     </url>
     <url>
-        <loc>http://keketa.github.com/blog/2012/02/08/quotes-from-sam-altman/</loc>
-        <lastmod>2012-02-08T15:28:20+09:00</lastmod>
+        <loc>http://keketter.com/blog/2012/02/08/quotes-from-sam-altman/</loc>
+        <lastmod>2012-02-08T16:03:18+09:00</lastmod>
     </url>
     <url>
-        <loc>http://keketa.github.com/about.html</loc>
-        <lastmod>2012-02-08T15:43:09+09:00</lastmod>
+        <loc>http://keketter.com/about.html</loc>
+        <lastmod>2012-02-08T16:03:18+09:00</lastmod>
     </url>
     <url>
-        <loc>http://keketa.github.com/blog/archives/</loc>
-        <lastmod>2012-02-08T15:43:09+09:00</lastmod>
+        <loc>http://keketter.com/blog/archives/</loc>
+        <lastmod>2012-02-08T16:03:18+09:00</lastmod>
     </url>
     <url>
-        <loc>http://keketa.github.com/</loc>
-        <lastmod>2012-02-08T15:40:54+09:00</lastmod>
+        <loc>http://keketter.com/</loc>
+        <lastmod>2012-02-08T16:03:36+09:00</lastmod>
     </url>
 </urlset>
