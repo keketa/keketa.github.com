@@ -4,20 +4,20 @@
   <title><![CDATA[keketter]]></title>
   <link href="http://keketa.github.com/atom.xml" rel="self"/>
   <link href="http://keketa.github.com/"/>
-  <updated>2012-02-08T14:36:28+09:00</updated>
+  <updated>2012-02-08T14:39:02+09:00</updated>
   <id>http://keketa.github.com/</id>
   <author>
     <name><![CDATA[keke_ta]]></name>
-    
+    <email><![CDATA[keketter@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[Quote from Sam Altman]]></title>
-    <link href="http://keketa.github.com/blog/2012/02/08/quote-from-sam-altman/"/>
+    <title type="html"><![CDATA[Quotes from Sam Altman]]></title>
+    <link href="http://keketa.github.com/blog/2012/02/08/quotes-from-sam-altman/"/>
     <updated>2012-02-08T12:30:00+09:00</updated>
-    <id>http://keketa.github.com/blog/2012/02/08/quote-from-sam-altman</id>
+    <id>http://keketa.github.com/blog/2012/02/08/quotes-from-sam-altman</id>
     <content type="html"><![CDATA[<p>LooptのFounder、Sam Altmanの名言を引用メモ。(約5年前）</p>
 
 <blockquote><p>-Get ready for high highs and low lows, and practice keeping yourself in the middle or you&#8217;ll never get good work done. You&#8217;re going to be pretty sure your company is dying at least once a month, and it usually isn&#8217;t. This is very important and very difficult to learn.</p>
