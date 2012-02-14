@@ -4,7 +4,7 @@
   <title><![CDATA[keketter]]></title>
   <link href="http://keketter.com/atom.xml" rel="self"/>
   <link href="http://keketter.com/"/>
-  <updated>2012-02-10T13:01:39+09:00</updated>
+  <updated>2012-02-14T16:39:09+09:00</updated>
   <id>http://keketter.com/</id>
   <author>
     <name><![CDATA[keke_ta]]></name>
@@ -12,6 +12,73 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Most Innovative Companies (2009~2012) via Fast Company]]></title>
+    <link href="http://keketter.com/blog/2012/02/14/the-most-innovative-companies-2009%7E2012/"/>
+    <updated>2012-02-14T16:16:00+09:00</updated>
+    <id>http://keketter.com/blog/2012/02/14/the-most-innovative-companies-2009~2012</id>
+    <content type="html"><![CDATA[<p>Top10の変遷をメモ。</p>
+
+<h1><a href="http://www.fastcompany.com/fast50_09">2009</a></h1>
+
+<pre><code>1. Team Obama
+2. Google
+3. Hulu
+4. Apple
+5. Cisco Systems
+6. Intel
+7. Pure Digital Technologies
+8. Wuxi Pharma Tech
+9. Amazon
+10. Ideo
+</code></pre>
+
+<h1><a href="http://www.fastcompany.com/mic/2010">2010</a></h1>
+
+<pre><code>1. Facebook
+2. Amazon
+3. Apple
+4. Google
+5. Huawei
+6. First Solar
+7. PG&amp;E
+8. Novartis
+9. Walmart
+10. HP
+</code></pre>
+
+<h1><a href="http://www.fastcompany.com/most-innovative-companies/2011/">2011</a></h1>
+
+<pre><code>1. Apple
+2. Twitter
+3. Facebook
+4. Nissan
+5. Groupon
+6. Google
+7. Dawning Information Industry
+8. Netflix
+9. Zynga
+10. Epocrates
+</code></pre>
+
+<h1><a href="http://www.fastcompany.com/most-innovative-companies/2012/full-list">2012</a></h1>
+
+<pre><code>1. Apple
+2. Facebook
+3. Google
+4. Amazon
+5. Square
+6. Twitter
+7. Occupy Movement
+8. Tencent
+9. Life Technologies
+10. SolarCity
+and...
+50. Y combinator
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google's First Employee Join Khan Academy]]></title>
