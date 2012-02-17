@@ -4,7 +4,7 @@
   <title><![CDATA[keketter]]></title>
   <link href="http://keketter.com/atom.xml" rel="self"/>
   <link href="http://keketter.com/"/>
-  <updated>2012-02-18T00:25:41+09:00</updated>
+  <updated>2012-02-18T00:33:43+09:00</updated>
   <id>http://keketter.com/</id>
   <author>
     <name><![CDATA[keke_ta]]></name>
@@ -43,7 +43,7 @@ Bing:   8000万
     <link href="http://keketter.com/blog/2012/02/17/congrats-to-macro-arment/"/>
     <updated>2012-02-17T15:42:00+09:00</updated>
     <id>http://keketter.com/blog/2012/02/17/congrats-to-macro-arment</id>
-    <content type="html"><![CDATA[<p>Instapaperでおなじみの<a href="http://www.marco.org/i">Marco Arment</a>がパパになるらしい。</p>
+    <content type="html"><![CDATA[<p>Instapaperでおなじみの<a href="http://www.marco.org/">Marco Arment</a>がパパになるらしい。</p>
 
 <blockquote class="twitter-tweet" lang="ja"><p>Thank you, everyone, for being my customers so I can run this business from home as we raise our first child. That&#8217;s priceless.</p>&mdash; Instapaperさん (@instapaper) <a href="https://twitter.com/instapaper/status/170372043735449600" data-datetime="2012-02-17T05:00:35+00:00">2月 17, 2012</a></blockquote>
 
